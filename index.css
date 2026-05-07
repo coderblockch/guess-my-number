@@ -1,0 +1,111 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a2e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    background: 16213e;
+    border-radius: 20px;
+    padding: 40px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+
+}
+
+h1{
+    color: #e94560;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.subtitle{
+    color: #a8a8b3;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.input-group{
+    display:flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #0f3460;
+    border-radius:10px;
+    background: #0f3460;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #e94560;
+  }
+
+  button {
+    padding: 12px 20px;
+    background: #e94560;                                                                                                                                                                      
+    color: #fff;
+    border: none;                                                                                                                                                                             
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;                  
+    cursor: pointer;                                                                                                                                                                          
+    transition: background 0.3s, transform 0.1s;
+  }                                                                                                                                                                                           
+                  
+  button:hover {
+    background: #c73652;
+  }                     
+                                                                                                                                                                                              
+  button:active {
+    transform: scale(0.97);                                                                                                                                                                   
+  }                        
+   
+  .message {
+    font-size: 1.1rem;
+    font-weight: 600; 
+    min-height: 28px;
+    margin-bottom: 8px;                                                                                                                                                                       
+    transition: color 0.3s;
+  }                                                                                                                                                                                           
+                  
+  .message.high  { color: #ff6b6b; }
+  .message.low   { color: #ffa94d; }                                                                                                                                                          
+  .message.win   { color: #69db7c; }
+                                                                                                                                                                                              
+  .attempts {     
+    color: #a8a8b3;                                                                                                                                                                           
+    font-size: 0.9rem;
+    min-height: 22px; 
+    margin-bottom: 20px;
+  }                                                                                                                                                                                           
+   
+  .btn-reset {                                                                                                                                                                                
+    background: #0f3460;
+    width: 100%;        
+  }             
+   
+  .btn-reset:hover {
+    background: #1a4a80;                                                                                                                                                                      
+  }
+                                                                                                                                                                                              
+  .hidden {       
+    display: none;
+  }
